@@ -1,0 +1,31 @@
+$darkGrey: #33414a;
+$lightGrey: #e7e7e7;
+
+.header {
+  min-height: 100px;
+  background-color: $darkGrey;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.body {
+  background-color: $lightGrey;
+}
+.content-container {
+  background-color: white;
+  box-shadow: black 0 0;
+  min-height: calc(100vh - 100px);
+}
+
+table.websites-table {
+  width: 100%;
+  tr {
+    &.odd {
+      background-color: $lightGrey;
+    }
+    td {
+      padding: 10px;
+      font-weight: bold;
+    }
+  }
+}
